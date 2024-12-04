@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333; 
+    color: #1cff33; 
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8aff88;
+    font-family: Sour Gummy;
+}
+
+/* Navigation Menu */
+.nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline-flex;
+    gap: 100px; 
+    font-family: Sour Gummy;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #7dff69; 
+}
+
+/* Buttons in the Header */
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Body */ 
+
+ body {
+    background-color: #69fa88a4;
+ }
+
+ .profile-img {
+    padding: 15px;
+    width: 25rem;
+    margin: 3rem;
+    border-radius: 17%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+ }
+
+ .profile-img:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.7); 
+ }
+
+ .text {
+    max-width: 600px; 
+    justify-content: left;
+    align-content: center;
+
+}
+
+.text h2 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: #181818; 
+    font-family: Sour Gummy;
+   
+}
+
+.text p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    font-family: Sour Gummy;
+    color: #181818; 
+}
+
+.QuemSouEu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+}
+
+/* Style for the image */
+.image {
+    position: absolute; 
+    width: 25px; 
+    height: 25px; 
+    pointer-events: none; 
+    transition: transform 1.0s ease-out; 
+}
+
+/* Popup Styling */
+.cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    font-size: 2rem;
+    background-color: #323232;
+    color: rgb(0, 255, 51);
+    padding: 12px;
+    text-align: center;
+    display: none;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    font-family: Sour Gummy;
+}
+
+.cookie-buttons {
+    margin-top: 10px;
+    font-family: Sour Gummy;
+}
+
+.cookie-buttons button {
+    background-color: #3d9b47;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgba(100, 255, 89, 0.918);
+    cursor: pointer;
+    gap: 4rem;
+    font-size: 1rem;
+    font-family: Sour Gummy;
+}
+
+.cookie-buttons button:hover {
+    background-color: #5d96538e;
+    transition: 0.2s ease-in;
+}
+
+/* Optional: style for body to prevent scrolling behind the popup */
+body.popup-active {
+    overflow: hidden;
+}
+
+/* Footer Styling */
+footer {
+    padding: 20px;
+    background-color: #303030;
+    color: rgba(1, 241, 9, 0.786);
+    text-align: center;
+    font-family: Sour Gummy;
+}
