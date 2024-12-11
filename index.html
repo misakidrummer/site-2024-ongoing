@@ -69,7 +69,79 @@
 
 
 
-    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pequena apresentação</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<header class="header">
+    <div class="logo">Oi eu sou a Nathi</div>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#home">Quem sou?</a></li>
+            <li><a href="#about">Gostos</a></li>
+            <li><a href="#services">Desgostos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section class="QuemSouEu"> 
+            <div class="content">
+                <img src="Captura de tela 2024-12-02 154813.png" alt="Your Image" class="profile-img">
+            </div>
+            <div class="text">
+                <h2>Quem sou eu?</h2>
+                <p>
+                    Oi, meu nome é Nathi, e esse é meu primeiro site de HTML, CSS e Javascript depois de muito tempo, mas acho que não ta nada mal para quem se considerava enferrujada ;D
+                </p>
+            </div>
+        </section>
+
+        <section class="Gostos">
+            <div class="content2">
+                <img src="controllers.jpg" alt="controller image" class="game-img" />
+                <div class="text2">
+                    <h3>Oque eu gosto?</h3>
+                    <p>As coisas que eu mais gosto nesse planeta, são jogos, dormir, animais, minha família e bem... tecnologia obviamente :D </p>
+                </div>
+            </div>
+        </section>
+
+        <audio id="background-music" autoplay loop>
+            <source src="songs/chill.mp3" type="audio/mpeg" >
+        </audio>
+
+        <script>
+            document.getElementById('background-music').muted = false;
+        </script>
+
+        <img src="cookie1.png" alt="Your Image" id="image" class="image">
+
+        <div id="cookie-popup" class="cookie-popup">
+            <p> Aceitas um Cookie? :D</p>
+            <div class="cookie-buttons">
+                <button id="accept-btn">Sim, Eu aceito!</button>
+                <button id="reject-btn">Não, valeu (vai ganhar um cookie sim)</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2024 o site</p>
+</footer>
+</html>
 
     <script src="script.js"></script>
 
