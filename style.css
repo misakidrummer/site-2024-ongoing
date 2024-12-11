@@ -68,13 +68,19 @@
  }
 
  .profile-img {
-    padding: 15px;
-    width: 25rem;
-    margin: 3rem;
+    padding: 13px;
+    width: 23rem;
+    margin: 8rem;
+    margin-right: 10rem;
     border-radius: 17%;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     object-fit: cover;
  }
+
+.content {
+    margin-left: -7rem;
+}
+
 
  .profile-img:hover {
     transform: translateY(-10px); 
@@ -85,19 +91,20 @@
     max-width: 600px; 
     justify-content: left;
     align-content: center;
+    margin-left: -8rem;
 
 }
 
 .text h2 {
     font-size: 4rem;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     color: #181818; 
     font-family: Sour Gummy;
    
 }
 
 .text p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 1.6;
     font-family: Sour Gummy;
     color: #181818; 
@@ -170,4 +177,58 @@ footer {
     color: rgba(1, 241, 9, 0.786);
     text-align: center;
     font-family: Sour Gummy;
+}
+
+.image {
+    position: absolute; /* Absolute positioning to allow free movement */
+}
+
+.content2 {
+    margin-left: 45rem;
+    margin-top: -7rem;
+
+}
+
+.game-img {
+    width: 25rem;
+    height: 25rem;
+    margin: 5rem;
+    margin-right: 16rem;
+    border-radius: 20%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+}
+
+.game-img:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.7); 
+ }
+
+ .text2 {
+    max-width: 600px; 
+    justify-content: center;
+    margin-left: -40rem;
+    margin-top: -25rem;
+    padding-bottom: 20rem;
+    height: 40%;
+ }
+
+
+ .text2 h3 {
+    font-size: 4rem;
+    color: #181818; 
+    font-family: Sour Gummy;
+   
+}
+
+.text2 p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: Sour Gummy;
+    color: #181818; 
+}
+
+.Gostos {
+    display: flex;
+    flex-direction: row;
 }
