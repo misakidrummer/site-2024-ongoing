@@ -64,11 +64,11 @@
 /* Body */ 
 
  body {
-    background-color: #69fa88a4;
+    background-color: #55f077a4;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
  }
 
  .profile-img {
-    padding: 13px;
     width: 23rem;
     margin: 8rem;
     margin-right: 10rem;
@@ -192,11 +192,20 @@ footer {
 .game-img {
     width: 25rem;
     height: 25rem;
-    margin: 5rem;
-    margin-right: 16rem;
-    border-radius: 20%;
+    margin: 8rem;
+    margin-right: 10rem;
+    border-radius: 17%;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     object-fit: cover;
+
+
+
+    /*     width: 23rem;
+    margin: 8rem;
+    margin-right: 10rem;
+    border-radius: 17%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover; */
 }
 
 .game-img:hover {
@@ -207,8 +216,8 @@ footer {
  .text2 {
     max-width: 600px; 
     justify-content: center;
-    margin-left: -40rem;
-    margin-top: -25rem;
+    margin-left: -34rem;
+    margin-top: -29rem;
     padding-bottom: 20rem;
     height: 40%;
  }
@@ -222,13 +231,18 @@ footer {
 }
 
 .text2 p {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     line-height: 1.6;
     font-family: Sour Gummy;
     color: #181818; 
+    height: 0rem;
 }
 
 .Gostos {
     display: flex;
     flex-direction: row;
+}
+
+html {
+    scroll-behavior: smooth;
 }
